@@ -37,8 +37,10 @@ for (f=0; f<9; f++)
   }
 
 var g
-for (g=0; g<9; g++)
+g = 0
+while (g<9;)
   {
     var g2 = Math.sqrt();
     document.write("loop:" + g2 + "<br />" );
+    g++;
   }

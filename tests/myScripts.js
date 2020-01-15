@@ -26,12 +26,19 @@ var e
 for (e=0; e<9; e++)
   {
     var e2 = Math.pow(2,e);
-    document.write("loop:" + ans + "<br />" )
+    document.write("loop:" + e2 + "<br />" );
   }
 
-var i
-for (i=0; i<9; i++)
+var f
+for (f=0; f<9; f++)
   {
-    var i2 = Math.sqrt(i);
-    document.write("loop:" + ans + "<br />" )
+    var f2 = Math.sqrt(f);
+    document.write("loop:" + f2 + "<br />" );
+  }
+
+var g
+for (g=0; g<9; g++)
+  {
+    var g2 = Math.sqrt();
+    document.write("loop:" + g2 + "<br />" );
   }

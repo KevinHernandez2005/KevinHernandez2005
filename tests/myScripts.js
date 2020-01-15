@@ -38,9 +38,9 @@ for (f=0; f<9; f++)
 
 var g
 g = 0
-while (g<9;)
+while (g<9)
   {
-    var g2 = Math.sqrt();
+    var g2 = Math.random();
     document.write("loop:" + g2 + "<br />" );
     g++;
   }

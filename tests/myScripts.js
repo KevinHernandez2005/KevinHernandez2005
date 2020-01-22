@@ -1,46 +1,11 @@
-var a;
-for (a=0; a<30; a++)
-  {
-    document.write("loop:" + a + "<br />");
-  }
-  
-var b;
-for (b=50; b>0; b--)
-  {
-    document.write("loop:" + (b + 150) + "<br />");
-  }
 
-var c;
-for (c=0; c<51; c++)
-  {
-    document.write("loop:" + (c*2) + "<br />");
-  }
 
-var d;
-for (d=0; d<5000; d+=100)
-  {
-    document.write("loop:" + d + "<br />");
-  }
+function myLoop(){
+  var start = document.getElementById("start").value;
+  var end = document.getElementById("end").value;
 
-var e
-for (e=0; e<9; e++)
+  for (var i = start ; i <= end ; i++)
   {
-    var e2 = Math.pow(2,e);
-    document.write("loop:" + e2 + "<br />" );
+    document.write('<p>'+ i +'</p>');
   }
-
-var f
-for (f=0; f<9; f++)
-  {
-    var f2 = Math.sqrt(f);
-    document.write("loop:" + f2 + "<br />" );
-  }
-
-var g
-g = 0
-while (g<9)
-  {
-    var g2 = Math.random();
-    document.write("loop:" + g2 + "<br />" );
-    g++;
-  }
+}  
